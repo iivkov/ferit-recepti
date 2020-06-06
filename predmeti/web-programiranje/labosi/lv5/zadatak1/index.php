@@ -130,6 +130,7 @@
             <p class="display-4">VS</p>
             <button id="generateFight" class="btn btn-primary mb-4 btn-lg">Fight</button>
             <button id="randomFight" class="btn btn-secondary">Select Random fighters</button>
+            <button id="addFighter" class="btn btn-secondary" href="add.php">Add new fighter</button>
         </div>
         <div id="secondSide" class="container d-flex flex-column align-items-center side second-side col-5">
             <div class="row">
