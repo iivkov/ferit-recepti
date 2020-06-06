@@ -1,0 +1,10 @@
+CREATE TABLE `cats` (
+  `id` INT AUTO_INCREMENT,
+  `name` VARCHAR(100) NOT NULL,
+  `age` INT NOT NULL,
+  `info` VARCHAR(100) NOT NULL,
+  `wins` INT NOT NULL,
+  `loss` INT NOT NULL,
+  `image` VARCHAR(100) NOT NULL,
+  CONSTRAINT cats_pk PRIMARY KEY(id),
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
